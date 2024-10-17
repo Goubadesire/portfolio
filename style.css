@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary:#5e3bee;
+}
+
+body{
+    font-family: "Poppins", system-ui;
+    font-size: 1.2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 3.3rem;
+}
+
+
+.button{
+    border: none;
+    outline: none;
+    padding: .4rem .8rem;
+    background-color: var(--primary); border-radius: 6px;
+}
+
+.button:hover{
+    border: 1px solid var(--primary);
+    background-color: transparent;
+}
+
+.button a{
+    color: #FFF;
+}
+
+.topbar .button a{
+    color: #FFF;
+}
+
+.button a:hover{
+    color: var(--primary);
+}
+
+/* topbar  */
+
+   
+
+.topbar h3 span{
+    color:var(--primary) ;
+}
+
+.topbar{
+    position: fixed;
+    background-color: #FFF;
+}
+
+.topbar a{
+    color: #000;
+    padding: 5px;
+}
+
+.topbar a:hover{
+    color: var(--primary);
+    transition: .8s ease;
+}
+
+
+/* hero */
+.sec_hero{
+    background-color: #f5fcff;
+   
+}
+
+
+.hero{
+    position: relative;
+    margin-top: 4rem;
+}
+
+.hero img{
+    border-radius: 6px;
+}
+
+.hero_presentation{
+    position: relative;
+    margin-top: 4rem;
+}
+
+
+.hero_presentation span{
+    color: var(--primary);
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 0 1rem;
+}
+
+.social{
+    font-size: 1.4rem;
+}
+
+.social span{
+    padding: 5px 10px; 
+    border: 1px solid var(--primary);
+    border-radius:50%;
+    
+}
+
+.social span i{
+    color: var(--primary);
+}
+
+.social span i:hover{
+    color: #FFF;
+    
+}
+
+.social span:hover{
+    background-color: var(--primary);
+    transition: .8s ease;
+    
+}
+
+
+
+
+
+
+/* Services */
+
+.service{
+    position: relative;
+    margin-top: 3rem;
+}
+
+.service_child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.box{
+    padding: 30px;
+    max-width: 300px;
+    border-radius: 8px;
+    border: 1px solid var(--primary);
+}
+
+.box i{
+    font-size: 1.3rem;
+}
+
+
+.box:hover{
+    background-color: var(--primary);
+    color: #FFF;
+    transition: .8s;
+    transform: scale(1.1);
+}
+
+
+
+.box_first_child{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: start;
+}
+
+/* skills */
+
+.skills{
+    background-color: #f5fcff;
+    color: var(--primary);
+}
+
+.skills_child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.skills_child i{
+    font-size: 4rem;
+}
+
+
+.skills_child i:hover{
+    color: var(--primary);
+    transition: .8s;
+    transform: scale(1.1);
+}
+
+/* footer */
+
+footer{
+    background-color: #000;
+    color: #FFF;
+    position: relative;
+    margin-top: 4rem;
+}
+
+.contact_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6rem;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.contact_child{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem 0;
+}
+
+.contact_child i{
+    font-size: 3rem;
+    color: var(--primary);
+}
+
+.copiright{
+    background-color: #f5fcff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 3px;
+    
+}
+
+.copiright span{
+    color: var(--primary);
+    font-weight:bold ;
+}
+/* skills 
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.skills_child{
+    border: 1px solid var(--primary);
+    border-radius: 12px;
+    padding: 1.8rem 2.5rem;
+    font-size: 4rem;
+}
+
+.skills_child:hover{
+    background-color: var(--primary);
+    transition: .8s;
+    color: #FFF;
+}
+
+*/
+
