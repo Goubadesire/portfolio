@@ -48,4 +48,3 @@ function revealOnScroll() {
 window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('load', revealOnScroll);
 
-// Préparation pour le menu burger et les animations (à venir) 
